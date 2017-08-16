@@ -9,4 +9,13 @@ public class Deposit{
     this.accountNumber=accountNumber;
     this.amount=amount;
   }
+
+  // getter methods
+  public int getAccountNumber(){
+    return accountNumber;
+  }
+
+  public double getAmount(){
+    return amount;
+  }
 }
